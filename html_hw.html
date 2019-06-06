@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- CSS and Stylesheets -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/v4-shims.css">
+  <link rel="stylesheet" type="text/css" href="resources/assets/css/style.css">
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Global Suicide Rates</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="html_hw.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="All-figures.html">Comparisons <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="data_pg.html">Raw Data <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="All-figures.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="figure_1.html">Suicides Over Time</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="figure_2.html">Suicides By Age</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Figure_3.html">Suicides By Region</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Figure_4.html">Suicides & HDI</a>
+            </div>
+        </li>
+      </ul>
+  </div>
+  </nav>
+</head>
+</head>
+
+<body>
+  <header class="w3-container w3-pink w3-center">
+  <h1class="w3-margin w3-xlarge">Global Suicide Rates</h1>
+  <br>
+<!-- First Grid with summary information-->
+  <div class="w3-container w3-white w3-center w3-padding-64">
+      <div class="w3-content">
+          <div class="w3-center">
+              <h1>The Project</h1>
+              <h3 class="w3-padding-32">We wanted to use data from two independent datasets pulled from Kaggle. One dataset included information about global suicide rates since the mid 80s for men and women across the world. The other dataset provided relevant information about geography, GDP, and other factors that we merged in order to make higher level analysis and inferences about suicide causality. </h3>
+
+              <p class="w3-padding-32"> After cleaning and assembling the data we wanted to look for underlying trends and causal relationships using matplotlib. We analyzed the global suicide rate over time, a comparison of age groups, and regions, and finally completed an analysis on the HDI and rate of global suicide.
+              </p>
+          </div>
+      </div>
+  </div>
+<!-- Second grid with graph image-->
+<div class="w3-container w3-white w3-center w3-padding-64">
+      <div class="w3-content">
+          <div class="w3-center">
+              <i class="fa fa-chart-bar w3-padding-64 w3-text-yellow w3-margin-right"></i>
+              <style>
+                  .fa-chart-bar {
+                      font-size: 200px;
+                  }
+              </style>
+          </div>
+<!-- Insert Charts -->
+          <div class="w3-center">
+              <h1>Explore The Results Of Our Analysis</h1>
+              <h5 class="w3-padding-32"></h5>
+          <div class="w3-container w3-white w3-Center w3-padding-64">
+              <div class="w3-content">
+                    <div class="w3-third w3-center">
+                         <a target="_blank" href="/Users/kassyedwards/Desktop/HTML_HW/overtime.png">
+                         <img src="/Users/kassyedwards/Desktop/HTML_HW/overtime.png" alt="Global Suicide Rates Over Time"></a>
+                    </div>
+              </div>
+          </div>
+          <div class="w3-container w3-white w3-Center w3-padding-64">
+              <div class="w3-content">
+                    <div class="w3-third w3-center">
+                           <a target="_blank" href="/Users/kassyedwards/Desktop/HTML_HW/byage.png">
+                           <img src="/Users/kassyedwards/Desktop/HTML_HW/byage.png"  alt="Global Suicide Rates By Age Group"></a>
+                    </div>
+              </div>
+          </div>
+          <div class="w3-container w3-white w3-Center w3-padding-64">
+                <div class="w3-content">
+                      <div class="w3-third w3-center">
+                            <a target="_blank" href="/Users/kassyedwards/Desktop/HTML_HW/byregion.png">
+                            <img src="/Users/kassyedwards/Desktop/HTML_HW/byregion.png" alt="Global Suicide Rates By Region"></a>
+                    </div>
+                </div>
+            </div>
+          <div class="w3-container w3-white w3-Center w3-padding-64">
+                <div class="w3-content">
+                      <div class="w3-third w3-center">
+                            <a target="_blank" href="/Users/kassyedwards/Desktop/HTML_HW/HDI.png">
+                            <img src="/Users/kassyedwards/Desktop/HTML_HW/HDI.png" alt="Suicide Rates and HDI"></a>
+                      </div>
+                </div>
+          </div>
+
+  <div class="w3-container w3-yellow w3-center">
+      <h1 class="w3-margin w3-xlarge">Project created and presented by UNCC Data Analytics Bootcamp</h1>
+      <h2 class="w3-margin w3-xlarge">Kassy Edwards</h2>
+      <footer class="w3-container w3-center" style="opacity: 1;color: white;">
+          <div class="w3-xlarge">
+              <i class="fa fa-facebook-official w3-hover-opacity"></i>
+              <i class="fa fa-instagram w3-hover-opacity"></i>
+              <i class="fa fa-snapchat w3-hover-opacity"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+              <i class="fa fa-twitter w3-hover-opacity"></i>
+              <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </div>
+      </footer>
+  </div>
+
+
+</body>
+</html>
